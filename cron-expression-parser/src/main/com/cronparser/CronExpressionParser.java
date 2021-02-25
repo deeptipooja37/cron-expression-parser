@@ -9,6 +9,7 @@ import com.cronparser.cronfields.Minute;
 import com.cronparser.cronfields.Months;
 import com.cronparser.cronfields.Weekday;
 
+@SuppressWarnings("unchecked")
 public class CronExpressionParser {
 
 	String expression;
